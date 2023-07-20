@@ -21,9 +21,7 @@ const Home = () => {
           <p className='section-text'>
             Poetry, at the very heart of Somali culture, weaves intricate threads of communication, entertainment, and the preservation of history and identity. As the Somali language resonates with unique phonetic qualities and vivid metaphors, it breathes life into mesmerizing poetic compositions that transcend boundaries and connect souls.
           </p>
-          <p className='section-text'>
-            At Hiil Qaran, our mission is to illuminate the works of talented Somali authors, both past and present, celebrating their remarkable contributions to the literary world. With each word, we seek to deepen the understanding and appreciation of Somali literature's cultural significance, unveiling a realm of imagination and wisdom.
-          </p>
+        
         </div>
         <div className='content-right'>
           <div className='image-container'>
