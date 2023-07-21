@@ -34,18 +34,19 @@ const Home = () => {
       Painting dreams before our eyes.`,
     },
     {
-      id: 1,
-      name: 'Nuruddin Farah',
-      image: process.env.PUBLIC_URL + '/images/Nuurdiin.jpeg',
-      poemSomali: `Intii ahaa xaabsadeyn,
-      Oon xusuusta hadaladda maansada
-      Jidhka kala noo xaqiijo
-      Mahadi dhaamis ka daadisay`,
-      poemEnglish: `In the shimmering haze of time,
-      Where the past and present intertwine,
-      A poet's words did gently chime,
-      Unraveling tales of a distant clime.`,
+      id: 3,
+      name: 'Hawo Taako',
+      image: process.env.PUBLIC_URL + '/images/poet3.jpg',
+      poemSomali: `Haweenkii iyo geerida,
+      Hawlgalka u adeegsaday,
+      Xididan gabar u haysaday,
+      Hawo Taako guushaaye`,
+      poemEnglish: `A woman of strength and grace,
+      Fierce in the battle she did face,
+      Defying odds, her dreams embrace,
+      Hawo Taako, a legend's trace.`,
     },
+
    
 
     // Add more sample poets and poems here
