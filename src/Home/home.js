@@ -4,52 +4,92 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './home.css';
 
 const Home = () => {
-  // Sample data for famous poets and their work
-  // ... (ame as previous code)
+
 
   const samplePoems = [
     {
       id: 1,
-      name: 'Nuruddin Farah',
-      image: process.env.PUBLIC_URL + '/images/Nuurdiin.jpeg',
-      poemSomali: `Intii ahaa xaabsadeyn,
-      Oon xusuusta hadaladda maansada
-      Jidhka kala noo xaqiijo
-      Mahadi dhaamis ka daadisay`,
-      poemEnglish: `In the shimmering haze of time,
-      Where the past and present intertwine,
-      A poet's words did gently chime,
-      Unraveling tales of a distant clime.`,
+      name: 'Cabdi Qaadir Shube',
+      image: process.env.PUBLIC_URL + '/images/Shube.jpeg',
+      poemSomali:  
+      `Dhallintii waddankaay!
+      Dhab baan hadlayaaye,
+      Adoo dhimirkaaga
+      Ka dhaadhicinaaya
+
+      Warkayga dhegeeyso!
+      Ku dhaado dhulkaaga!
+      Ka dheefso dhurkiisa!
+      Ka dhawrso xumaanta!
+     
+      Ku dhiirro wanaagga!
+      Dhibtaada aqoonso!
+      Adduunyada dheeho!
+      Ka dheego tacliinta!
+     
+      Dhiggaa la xisaabtan!
+      Dhunyee qarankeenni
+      Haddaan dhisan weynno,
+      Dhallaanka koraaya
+     
+      Maxaa u dhigaal ah,
+      Hadhow dhaxalkood ah,
+      Inanna dhaqan noo ah?`,
+  
     },
     {
       id: 2,
-      name: 'Hadraawi',
+      name: 'Garaad Wiil-Waal',
       image: process.env.PUBLIC_URL + '/images/Hadrawi.jpg',
-      poemSomali: `Dhulka ka naxo intaa kii naafisa ka hawlgasho
-      Ninkayga baa iga aado dheh
-      Ninkii iga hortaagay baa igu qaraabo`,
-      poemEnglish: `Beneath the vast Somali skies,
-      Where stars like fireflies arise,
-      The poet's voice forever flies,
-      Painting dreams before our eyes.`,
+      poemSomali: 
+      `War yaroo igu saabsan
+      Haddaan weedh ka caddeeyo
+      Waa inaad wadartiinba
+      Idinkoon i wagliilin
+      Waa runtaa i dhahdaan
+      Waagaan wiil yar ahaa
+      Rag anoon wax la qaybsan
+      Wacdi sheekh iyo waano
+      Waalidiinta gabowday baan
+      Waddada diinta wanaagsan
+      Wacdigay hadlayeenbaan
+      Ku weeleeyey dhagtayda
+      Anoo waansamayoo
+      Wadaad fiicanna show ah
+      Waysadiyo kitaabkiyo
+      Masale aad u wanaagsaniyo
+      Weelka daacadda qaataybaad
+      Wiilwaal ii bixiseene`,
     },
     {
       id: 3,
-      name: 'Hawo Taako',
-      image: process.env.PUBLIC_URL + '/images/poet3.jpg',
-      poemSomali: `Haweenkii iyo geerida,
-      Hawlgalka u adeegsaday,
-      Xididan gabar u haysaday,
-      Hawo Taako guushaaye`,
-      poemEnglish: `A woman of strength and grace,
-      Fierce in the battle she did face,
-      Defying odds, her dreams embrace,
-      Hawo Taako, a legend's trace.`,
+      name: 'Ayaan Ahmed Kaaba',
+      image: process.env.PUBLIC_URL + '/images/Kaaba.jpg',
+      poemSomali: 
+      `Calan yahaw kumaad tahay
+      Ciirsigaagu waa kee
+      Cudud aad ku faantiyo
+      Colka qaar la diririyo
+      Miyaad ciidan leedahay?
+      
+      Bulsho aad ku culus tahay
+      Miyay kugu cawaysaa
+      Ma cir kaad u hoyataa
+      Dhulka cidhif ma leedahay?
+      
+      Cawo qabe miyaad tahay
+      Mise ceel dunshaad tahay
+      Cilin iyo mid aayo leh
+      Labadaa car kee tahay?
+      
+      Caku daadu badataye
+      Bal caddee warkaagoo
+      Calan yahaw kumaad tahay?`,
+    
     },
 
    
 
-    // Add more sample poets and poems here
   ];
 
 
@@ -87,10 +127,10 @@ const Home = () => {
                 <h4 className='poem-heading'>Original Poem (Somali)</h4>
                 <p>{poet.poemSomali}</p>
               </div>
-              <div className='poet-poem'>
+              {/* <div className='poet-poem'>
                 <h4 className='poem-heading'>English Translation</h4>
                 <p>{poet.poemEnglish}</p>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
