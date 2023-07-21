@@ -1,99 +1,164 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Roboto', sans-serif;
-    background-color: linear-gradient(to right, #a8c0ff, #3f2b96);
-
-   
-   
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
+body {
+background-color:   #F9F4BB;
+}
+
+/* Banner Section */
 .banner {
-    background-color: #f9f9f9;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .h1 {
-    color: #333;
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .subtitle {
-    color: #666;
-    font-size: 18px;
-  }
-  
-  .content-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-  }
-  
-  .content-left {
-    width: 60%;
-  }
-  
-  .section-title {
-    color: #333;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .section-text {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-  
-  .content-right {
-    width: 40%;
-  }
-  
-  .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
- 
+  padding: 20px;
+  text-align: center;
+}
+
+.main-title {
+  color: #37a8d4 ;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #353434;
+  font-size: 18px;
+}
+
+/* Content Section */
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.content-left {
+  width: 60%;
+}
+
+.section-title {
+  color: #37a8d4 ;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+
+.section-text {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  margin-left: 20%;
+  max-width: 700px;
+  text-align: justify;
+}
+
+.content-right {
+  width: 40%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
 .image {
   max-width: 100%;
-  height: auto;
-  width: 500px; 
+  height: 100%;
+  width: 500px;
 }
 
+/* Famous Poets Section */
+.famous-poets-section {
+  padding: 40px;
+  text-align: center;
+}
 
-.search-bar {
+.famous-poets-title {
+  color: #37a8d4 ;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.famous-poets-list {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-top: 20px;
-  background-color: rgb(250, 28, 220);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.poet-card {
   width: 350px;
-  margin-left: auto; 
-}
-
-.search-input {
-  padding: 10px;
-  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
   border-radius: 4px;
-  margin-right: 10px;
-  font-size: 16px;
-  background-color: skyblue;
+  text-align: center;
 }
 
-.search-button {
-  padding: 10px 20px auto;
-  background-color: #333;
+.poet-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.poet-name {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.poet-poem {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.poem-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #37a8d4 ;
   color: #fff;
-  border: none;
-  border-radius: 4px;
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-text {
   font-size: 16px;
+}
+
+.center-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  margin-left: 8px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 5px;
+  
+}
+
+.social-icon:hover {
+  color: #ff7f50;
   cursor: pointer;
 }
-
 
